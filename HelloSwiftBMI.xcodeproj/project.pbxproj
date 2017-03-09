@@ -12,6 +12,7 @@
 		CECB4E641E700D4300108E03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECB4E621E700D4300108E03 /* Main.storyboard */; };
 		CECB4E661E700D4300108E03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECB4E651E700D4300108E03 /* Assets.xcassets */; };
 		CECB4E691E700D4300108E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECB4E671E700D4300108E03 /* LaunchScreen.storyboard */; };
+		CECB4E711E700D5E00108E03 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECB4E701E700D5E00108E03 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CECB4E651E700D4300108E03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECB4E681E700D4300108E03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECB4E6A1E700D4300108E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECB4E701E700D5E00108E03 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CECB4E5E1E700D4300108E03 /* AppDelegate.swift */,
 				CECB4E601E700D4300108E03 /* ViewController.swift */,
+				CECB4E701E700D5E00108E03 /* Model.swift */,
 				CECB4E621E700D4300108E03 /* Main.storyboard */,
 				CECB4E651E700D4300108E03 /* Assets.xcassets */,
 				CECB4E671E700D4300108E03 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECB4E711E700D5E00108E03 /* Model.swift in Sources */,
 				CECB4E611E700D4300108E03 /* ViewController.swift in Sources */,
 				CECB4E5F1E700D4300108E03 /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VBE7MKN5GU;
 				INFOPLIST_FILE = HelloSwiftBMI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiChen.HelloSwiftBMI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VBE7MKN5GU;
 				INFOPLIST_FILE = HelloSwiftBMI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiChen.HelloSwiftBMI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +306,7 @@
 				CECB4E6F1E700D4300108E03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
